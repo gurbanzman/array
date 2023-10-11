@@ -1,4 +1,4 @@
-// array task - 1 
+// array task - 1
 
 // function array_Clone(arr){
 //    let newArr = [...arr];
@@ -27,7 +27,6 @@
 
 // joinString(["Red","Green","White","Black"]);
 
-
 //array task - 4
 
 // let arr1 = [3,'a', 'a', 'a', 2, 3, 'a', 3,'a',2, 4, 9, 3 ];
@@ -49,7 +48,6 @@
 //    m = 0;
 // }
 
-
 //task - 5
 
 // let arr = [1,2,3,4,5];
@@ -60,7 +58,6 @@
 //    hasil *= i;
 // }
 // console.log(sum, hasil);
-
 
 //task - 6
 
@@ -77,10 +74,34 @@
 // console.log(emptyArr);
 // dublicateArray([1, 2, -2, 4, 5, 4 ,7, 8, 7 , 7, 71, 3, 6]);
 
-
 //task - 7
 
 // function removeElement(arr, num){
 //    let index = arr.indexOf(num);
 // }
 
+//task - 8
+
+// let arr = [7, 9, 0, -2];
+// console.log(arr.slice(-1));
+// console.log(arr.slice(1));
+
+//task - 9
+
+// const swapCase = function(letters){
+//    let newLetter = "";
+//    for(let i = 0; i < letters.length; i++){
+//       if(letters[i] === letters[i].toUpperCase()){
+//          newLetter += letters[i].toLowerCase();
+//       }
+//       else{
+//          newLetter += letters[i].toUpperCase();
+//       }
+//    }
+//    return newLetter;
+// }
+
+// let text = 'The Quick Brown Fox';
+
+// let swaptext = swapCase(text);
+// console.log(swaptext);
